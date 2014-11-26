@@ -3,7 +3,7 @@
 	<body class="start test">
 
 		<?php include_once('edit/components/navigation.php'); ?> 
-		<?php include_once('edit/components/mydocs.php'); ?> 
+		<button id="trigger-overlay" type="button">Open Overlay</button>
 
 	 	
 	 	<div id="spellcheck" class="editable" style="outline:none;" spellcheck="false">
@@ -68,6 +68,20 @@
 
 	    <footer role="contentinfo">
 	    </footer>
+
+	    <!-- OPEN CLOSE --> 
+	    <div class="overlay overlay-hugeinc">
+			<button type="button" class="overlay-close">Close</button>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Work</a></li>
+					<li><a href="#">Clients</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
 
 <?php include_once('edit/components/scripts.php'); ?>
 <?php include_once('edit/components/analyticstracking.php'); ?>

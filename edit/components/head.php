@@ -31,5 +31,7 @@
 	<link rel="stylesheet" href="edit/assets/css/contextmenu.css" />
 	<link rel="stylesheet" href="edit/assets/css/medium-editor.css">
 
+	<link rel="stylesheet" type="text/css" href="edit/assets/css/documentList.css" />
+
 
 </head>
