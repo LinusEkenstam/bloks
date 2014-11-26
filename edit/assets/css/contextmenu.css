@@ -1,0 +1,21 @@
+.show {
+    z-index:1000;
+    position: absolute;
+    background-color:#333;
+    padding: 20px;
+    border: 1px solid blue;
+    display: block;
+    margin: 0;
+    list-style-type: none;
+    list-style: none;
+    top: 50%;
+    left: 50%;
+}
+
+.hide {
+    display: none;
+}
+
+.show li{ list-style: none; }
+.show a { border: 0 !important; text-decoration: none; }
+.show a:hover { text-decoration: underline !important; }
