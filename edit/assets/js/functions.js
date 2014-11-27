@@ -12,7 +12,7 @@ $(document).ready(function() {
 
 	$('.input').css('height', document.documentElement.clientHeight);
 	
-	var button = Dropbox.createChooseButton({ 
+	 var button = Dropbox.createChooseButton({ 
 		success: function (files) {
 			var url = files[0].link;
 			$.ajax({
@@ -22,7 +22,7 @@ $(document).ready(function() {
 			})
 		} 
 	});
-	document.getElementById("myDocs").appendChild(button);
+	document.getElementById("myDocs").appendChild(button); 
 
 	//window.onbeforeunload=function(e){return "Are you sure you want to exit this node? All your work will be lost";}
 

@@ -7,7 +7,8 @@
 	 			<span title="Save" onclick="javascript:window.print();"><i class="fa fa-print"></i></span>
 	 			<span title="Fullscreen" onclick="fullscreen(&#39;theHTML&#39;);"><i class="fa fa-arrows-alt"></i></span>
 	 			<span onclick="mode()"><i class="fa fa-adjust"></i></span>
-	 			
+	 			<span id="trigger-overlay" type="button" style="float: right;">View my documents</span>
+	 			<span style="float: right;" type="button" onClick="">New document</span>
  			
 	 			<!-- <span>
 	 			<select id="font" onchange="font(this)">
